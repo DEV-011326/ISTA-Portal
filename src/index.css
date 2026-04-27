@@ -12,7 +12,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f8f9fa;
+  background-color: #f0f4f8;
 }
 
 .app {
@@ -28,7 +28,7 @@ body {
 /* Page Title */
 .page-title {
   font-size: 2.5rem;
-  color: #006341;
+  color: #0055A4;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -55,32 +55,136 @@ body {
 }
 
 .btn-primary {
-  background-color: #006341;
+  background-color: #0055A4;
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #004d33;
+  background-color: #003d7a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 99, 65, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 85, 164, 0.3);
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: #006341;
-  border: 2px solid #006341;
+  color: #0055A4;
+  border: 2px solid #0055A4;
 }
 
 .btn-secondary:hover {
-  background-color: #006341;
+  background-color: #0055A4;
   color: white;
   transform: translateY(-2px);
+}
+
+/* OFPPT Filiere Styles */
+.filiere-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.filiere-title {
+  text-align: center;
+  color: #0055A4;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.filiere-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.filiere-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.filiere-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 85, 164, 0.08);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.filiere-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 85, 164, 0.15);
+  border-color: #0055A4;
+}
+
+.filiere-card.expanded {
+  border-color: #0055A4;
+  box-shadow: 0 8px 25px rgba(0, 85, 164, 0.2);
+}
+
+.filiere-header {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(135deg, #0055A4 0%, #0077CC 100%);
+  color: white;
+}
+
+.filiere-icon {
+  font-size: 2rem;
+}
+
+.filiere-header h2 {
+  flex: 1;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.module-count {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.modules-list {
+  padding: 1.5rem;
+  background: #f8faff;
+}
+
+.modules-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modules-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #e8f1fa;
+  color: #444;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modules-list li:last-child {
+  border-bottom: none;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .page-title {
     font-size: 2rem;
+  }
+
+  .filiere-grid {
+    grid-template-columns: 1fr;
   }
 }
 
