@@ -11,10 +11,10 @@ const Home = () => {
           vous offre des formations de qualité dans divers domaines techniques et professionnels.
         </p>
         <div className="hero-buttons">
-          <Link to="/programs" className="btn btn-primary">
+          <Link to="/ISTA-Portal/programs" className="btn btn-primary">
             Voir les Formations
           </Link>
-          <Link to="/contact" className="btn btn-secondary">
+          <Link to="/ISTA-Portal/contact" className="btn btn-secondary">
             Contactez-nous
           </Link>
         </div>

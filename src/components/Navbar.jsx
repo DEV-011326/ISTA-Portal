@@ -4,16 +4,16 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', label: 'Accueil' },
-    { path: '/about', label: 'À propos' },
-    { path: '/programs', label: 'Formations' },
-    { path: '/contact', label: 'Contact' }
+    { path: '/ISTA-Portal/', label: 'Accueil' },
+    { path: '/ISTA-Portal/about', label: 'À propos' },
+    { path: '/ISTA-Portal/programs', label: 'Formations' },
+    { path: '/ISTA-Portal/contact', label: 'Contact' }
   ];
 
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/" className="nav-logo">
+        <Link to="/ISTA-Portal/" className="nav-logo">
           ISTA Nador
         </Link>
         <ul className="nav-menu">

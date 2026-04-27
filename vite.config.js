@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/ISTA-Portal/", // هذا هو السطر الناقص الذي سيصلح المسارات
+  base: "/ISTA-Portal/",
 })
