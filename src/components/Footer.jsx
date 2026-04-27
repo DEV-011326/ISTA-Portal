@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Liens Rapides</h3>
           <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/about">À propos</a></li>
-            <li><a href="/programs">Formations</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/ISTA-Portal/">Accueil</a></li>
+            <li><a href="/ISTA-Portal/about">À propos</a></li>
+            <li><a href="/ISTA-Portal/programs">Formations</a></li>
+            <li><a href="/ISTA-Portal/contact">Contact</a></li>
           </ul>
         </div>
         <div className="footer-section">
@@ -22,9 +22,16 @@ const Footer = () => {
           <p>Tél: +212 536 XX XX XX</p>
           <p>Email: contact@istanador.ma</p>
         </div>
+        <div className="footer-section">
+          <h3>Developers</h3>
+          <p>Abdelouahid Amezian</p>
+          <p>Jamal Alaoui</p>
+          <p>Email: abdelouahidamezian@gmail.com</p>
+          <p>Email: jamalalaoui@gmail.com</p>
+        </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} ISTA Nador - OFPPT. Tous droits réservés.</p>
+        <p>&copy; 2026 ISTA Nador - OFPPT. Tous droits réservés.</p>
       </div>
     </footer>
   );
