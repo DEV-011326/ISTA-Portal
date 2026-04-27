@@ -1,6 +1,6 @@
 /* ===== NAVBAR ===== */
 .navbar {
-  background-color: #006341;
+  background-color: #0055A4;
   padding: 0;
   position: sticky;
   top: 0;
@@ -54,7 +54,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: white;
+  background-color: #FFD700;
   transition: width 0.3s ease;
 }
 
@@ -71,7 +71,7 @@
   justify-content: center;
   align-items: center;
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #006341 0%, #008f5f 50%, #00b377 100%);
+  background: linear-gradient(135deg, #0055A4 0%, #0077CC 50%, #0099E6 100%);
   color: white;
   text-align: center;
 }
@@ -103,12 +103,12 @@
 
 .hero-buttons .btn-primary {
   background-color: white;
-  color: #006341;
+  color: #0055A4;
 }
 
 .hero-buttons .btn-primary:hover {
-  background-color: #f0f0f0;
-  color: #004d33;
+  background-color: #f0f4f8;
+  color: #003d7a;
 }
 
 .hero-buttons .btn-secondary {
@@ -118,7 +118,7 @@
 
 .hero-buttons .btn-secondary:hover {
   background-color: white;
-  color: #006341;
+  color: #0055A4;
 }
 
 .hero-features {
@@ -137,6 +137,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #FFD700;
 }
 
 .feature p {
@@ -164,7 +165,7 @@
 .about-text h2,
 .about-mission h2,
 .about-ofppt h2 {
-  color: #006341;
+  color: #0055A4;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
@@ -187,17 +188,18 @@
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 85, 164, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 3px solid #0055A4;
 }
 
 .mission-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 25px rgba(0, 85, 164, 0.15);
 }
 
 .mission-card h3 {
-  color: #006341;
+  color: #0055A4;
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
 }
@@ -211,7 +213,8 @@
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 85, 164, 0.08);
+  border-left: 4px solid #FFD700;
 }
 
 .about-ofppt p {
@@ -243,16 +246,17 @@
   background: white;
   border-radius: 16px;
   padding: 2rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 85, 164, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
   height: 100%;
+  border-top: 3px solid #0055A4;
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 30px rgba(0, 85, 164, 0.15);
 }
 
 .card-icon {
@@ -261,7 +265,7 @@
 }
 
 .card-title {
-  color: #006341;
+  color: #0055A4;
   font-size: 1.3rem;
   margin-bottom: 0.8rem;
 }
@@ -275,8 +279,8 @@
 
 .card-duration {
   display: inline-block;
-  background: #e8f5f0;
-  color: #006341;
+  background: #e8f1fa;
+  color: #0055A4;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -288,11 +292,12 @@
   background: white;
   padding: 2.5rem;
   border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 85, 164, 0.08);
+  border-left: 4px solid #0055A4;
 }
 
 .programs-info h2 {
-  color: #006341;
+  color: #0055A4;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
 }
@@ -333,7 +338,7 @@
 
 .contact-info h2,
 .contact-form-wrapper h2 {
-  color: #006341;
+  color: #0055A4;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
 }
@@ -364,16 +369,17 @@
   background: white;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 85, 164, 0.08);
 }
 
 .success-message {
-  background: #e8f5f0;
-  color: #006341;
+  background: #e8f1fa;
+  color: #0055A4;
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1rem;
   font-weight: 500;
+  border-left: 4px solid #0055A4;
 }
 
 .contact-form {
@@ -406,7 +412,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #006341;
+  border-color: #0055A4;
 }
 
 .form-group input.error,
@@ -422,7 +428,7 @@
 
 /* ===== FOOTER ===== */
 .footer {
-  background-color: #004d33;
+  background-color: #002A52;
   color: white;
   padding: 3rem 2rem 1rem;
 }
@@ -439,7 +445,7 @@
 .footer-section h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #FFD700;
 }
 
 .footer-section p {
@@ -464,7 +470,7 @@
 }
 
 .footer-section ul li a:hover {
-  color: white;
+  color: #FFD700;
 }
 
 .footer-bottom {
