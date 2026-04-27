@@ -13,10 +13,10 @@ function App() {
       <Navbar />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/programs" element={<Programs />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/ISTA-Portal/" element={<Home />} />
+          <Route path="/ISTA-Portal/about" element={<About />} />
+          <Route path="/ISTA-Portal/programs" element={<Programs />} />
+          <Route path="/ISTA-Portal/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />
