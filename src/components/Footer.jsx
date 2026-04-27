@@ -26,8 +26,9 @@ const Footer = () => {
           <h3>Developers</h3>
           <p>Abdelouahid Amezian</p>
           <p>Jamal Alaoui</p>
-          <p>Email: abdelouahidamezian@gmail.com</p>
-          <p>Email: jamalalaoui@gmail.com</p>
+          <h3>Email</h3>
+          <p>abdelouahidamezian@gmail.com</p>
+          <p>jamalalaoui@gmail.com</p>
         </div>
       </div>
       <div className="footer-bottom">
