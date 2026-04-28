@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dev-011326.github.io/ISTA-Portal/sitemap.xml
